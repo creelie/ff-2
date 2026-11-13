@@ -1,0 +1,13 @@
+dim der(H) = 3 ; dim der(O) = 14
+dim der_R(C(x)H) = 6  (paper uses su2, dim 3)
+dim der_R(C(x)O) = 28  (paper uses g2, dim 14)
+dim span{D_{a,b}: a,b in (CxH)'} = 6 ; in (CxO)' = 28 ; in H' = 3 ; in O' = 14
+gamma(x y) == gamma(y) gamma(x) for x=i, y=i_1 ? False | gamma(xy) = [ 0. -0. -0. -0. -0. -1. -0. -0.]  gamma(y)gamma(x) = [0. 0. 0. 0. 0. 1. 0. 0.]
+random pairs violating anti-automorphism property: 100 / 100
+(X.Y)_11 for X_12 = i, Y_12 = i_1: [ 0.  0.  0.  0.  0. -1.  0.  0.] -> real? False
+symmetric-element dims of the involution types of CxH ~ M_2(C): orthogonal 6, symplectic 2, unitary 4 (all > 1)
+  paper's gamma: anti-automorphic involution? False; dim of symmetric elements = 1
+  C-linear quaternion conjugation: anti-automorphic involution? True; dim of symmetric elements = 2
+  conj (x) quaternion conj: anti-automorphic involution? True; dim of symmetric elements = 4
+Dixon T: #candidate derivations 34 ; all satisfy the derivation identity: True
+rank of their span: 34  => dim der(C(x)H(x)O) >= 34 > 17 = dim(su2+g2)
