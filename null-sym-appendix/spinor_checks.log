@@ -1,0 +1,29 @@
+=== (I) WDM 32768 branchings ===
+(11-brane): #(triality x triality x parity) relabelings (72) matching the S+ of D16: 0
+(11-brane): #(triality x triality x parity) relabelings (72) matching the S- of D16: 0
+(19-brane): #(triality x triality x parity) relabelings (72) matching the S+ of D16: 0
+(19-brane): #(triality x triality x parity) relabelings (72) matching the S- of D16: 0
+true: 32768 = (8s,8s,128) + (8s,8c,128') + (8c,8s,128') + (8c,8c,128)   [labels up to triality/parity]
+(11-brane) as stated: so(12,4) 128 restricts to {('s', 'c'): 1, ('c', 's'): 1} ; 128' restricts to {('c', 's'): 1, ('s', 'c'): 1}
+  actual restriction of D8 semispinors to so(4,4)+so(8): S+ -> {('s', 's'): 1, ('c', 'c'): 1} ; S- -> {('s', 'c'): 1, ('c', 's'): 1}
+  => the two inequivalent semispinors restrict differently; the stated line 2 assigns both the same pair.
+
+=== (H) so(15)-covariance of the so(27,3) MW spinor ===
+sum dims odd/even forms of 15: 16384 16384
+D15 S+: (V+V) restriction == odd forms: True; == even forms: True
+           (V+15) restriction == 128 x (B7 spinor 128): True; contains weight of 15's highest weight e1: False
+D15 S-: (V+V) restriction == odd forms: True; == even forms: True
+           (V+15) restriction == 128 x (B7 spinor 128): True; contains weight of 15's highest weight e1: False
+signatures (s,t) of R^30 for real so(15)-forms acting as V+V (incl. so(15,C)_R): [(0, 30), (2, 28), (4, 26), (6, 24), (8, 22), (10, 20), (12, 18), (14, 16), (15, 15), (16, 14), (18, 12), (20, 10), (22, 8), (24, 6), (26, 4), (28, 2), (30, 0)]
+(27,3) or (3,27) among them: False
+
+=== (J) symmetry of C Gamma^(k) on the 128 of D8 ===
+C gamma_a C^-1 = s gamma_a^T with s in {(1+0j)}
+dim S+ = 128
+  k=0: C Gamma^(k) restricted to S+ x S+ is {'sym'}
+  k=2: C Gamma^(k) restricted to S+ x S+ is {'antisym'}
+  k=4: C Gamma^(k) restricted to S+ x S+ is {'sym'}
+  k=6: C Gamma^(k) restricted to S+ x S+ is {'antisym'}
+  k=8: C Gamma^(k) restricted to S+ x S+ is {'sym'}
+=> S^2(128) = wedge^0 + wedge^4 + wedge^8_+ = 1+1820+6435 = 8256 = 8256 ; wedge^2(128) = wedge^2 + wedge^6 = 120+8008 = 8128 = 8128
+=> the adjoint 120 = wedge^2 occurs only in the ANTISYMMETRIC square: an so(16)- (hence so(12,4)-) equivariant symmetric map S^2(128) -> so(16) is zero.

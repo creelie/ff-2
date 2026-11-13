@@ -1,0 +1,33 @@
+== 2008.06742 ==
+98280 = L5+4L4+6L3+4L2+L1 : 98280 True
+trace of -1 in SO(24) on that SO(24)-module: -11064 | trace of -1 in Co_0 on R[Lambda_4/+-1]: 98280 (acts trivially)
+dim of (-1)-eigenspace of the assigned module: 54672
+196884 = 1+299+98280+98304: True ; 98304 = 24*4096: True
+fieldc': 324+2*53130+6*12650+6*2300+2*300 = 196884
+dims of so(25) forms: L5,L4,L3,L2 of 25 = [53130, 12650, 2300, 300] ; Sym^2_0(25) = 324
+L24: 624 + 2*(53130+3*12650+3*2300) = 196584 ; minus 24 = 196560
+L24 as su(25)-module a24+V+Vbar, V = L5+3L4+3L3 of C^25: distinct nonzero Cartan weights = 136760 (not 196560); max weight multiplicity = 3
+98280 = C(28,5): True ; 196560 = 3*240*273: True
+psi = 24*2048-2048 = 47104 ; psi^(2) = 516096
+pt: 2048 = 24+2024: True
+ptt: True True
+terza: True  L7 = 346104
+T_2B coefficients q^-1..q^7: [1, 0, 276, -2048, 11202, -49152, 184024, -614400, 1881471]
+K(q) (eq. pf) coefficients q^-1/2..q^7/2: [1, 276, 2048, 11202, 49152, 184024, 614400, 1881471] ; |T_2B| match: True
+K(q) = -T_2B(-q^(1/2)) holds; literal 'q^(1/2) Z^2B(q)' would give exponents -1/2, 3/2, 5/2,... with alternating signs
+dec-2 276: sum=276 ok=True; violations of #L^p*|L^p| <= |L^(p+1)|: []
+dec-2 2048: sum=2048 ok=True; violations of #L^p*|L^p| <= |L^(p+1)|: []
+dec-2 11202: sum=11202 ok=True; violations of #L^p*|L^p| <= |L^(p+1)|: []
+dec-2 49152: sum=49152 ok=True; violations of #L^p*|L^p| <= |L^(p+1)|: []
+dec-2 184024: sum=184024 ok=True; violations of #L^p*|L^p| <= |L^(p+1)|: []
+dec-2 614400: sum=614400 ok=True; violations of #L^p*|L^p| <= |L^(p+1)|: []
+dec-2 1881471: sum=1881471 ok=True; violations of #L^p*|L^p| <= |L^(p+1)|: [(8, 1470942, 1307504)]
+== 1906.10709 ==
+odd forms of 15: [15, 455, 3003, 6435, 5005, 1365, 105, 1] 16384
+even forms of 15: [1, 105, 1365, 5005, 6435, 3003, 455, 15] (paper lists 25' instead of 15')
+== EP / e7^(2) root count ==
+so20+su2+(512,2): dim 1217 rank 11 => #roots if semisimple: 1206 > max over rank-11 semisimple = 258
+Leech: 196560 'roots' vs max over rank-24 semisimple = 1152
+e8^(1) = so(12,4)+2^7: dim 248, rank 8, roots-if-Lie 240 vs max 240
+e8^(2) = so(20,4)+2^11: dim 2324, rank 12, roots-if-Lie 2312 vs max 288
+e8^(3) = so(28,4)+2^15: dim 33264, rank 16, roots-if-Lie 33248 vs max 512

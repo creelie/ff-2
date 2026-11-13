@@ -1,0 +1,9 @@
+octonion table: alternative and normed: OK
+Jordan identity residual: 9.325873406851315e-15
+unit check residual: 0.0
+dim der(J_{1,2}^O) = 52
+trace form on der: (#pos, #neg, #zero) = (16, 36, 0)  [f4(-20): 16 noncompact (+), 36 compact (-)]
+dim of span of images (the 26): 26 ; unit annihilated by all D: True
+dim of invariant symmetric bilinear forms on the 26: 1
+signature of the (unique up to scale) invariant form on the 26: (10, 16)  => f4(-20) sits in so(10,16), not so(25,1)
+Jordan trace form T(X.Y) on the 26: signature (10, 16)

@@ -1,0 +1,27 @@
+Golay weight distribution: {0: 1, 8: 759, 12: 2576, 16: 759, 24: 1}
+x->-1/x preserves extended Golay code: True
+shape counts (2^8 0^16, 4^2 0^22, 3 1^23): 97152 1104 98304 total 196560
+inner products (norm-4 normalisation) occurring: [-4, -2, -1, 0, 1, 2, 4]
+inner-product distribution w.r.t. one minimal vector: {-4: 1, -2: 4600, -1: 47104, 0: 93150, 1: 47104, 2: 4600, 4: 1}
+spherical design test: sum_v (v.x)^(2k) vs isotropic average
+  k=1: rel. deviation 2.019e-16
+  k=2: rel. deviation 4.731e-16
+  k=3: rel. deviation 3.033e-16
+  k=4: rel. deviation 5.657e-16
+  k=5: rel. deviation 1.760e-15
+  k=6: rel. deviation 1.905e-04
+  k=7: rel. deviation 2.263e-03
+number of minimal vectors fixed by -1: 0 => trace(-1 | R[Lambda_4]) = 0
+=> dim(+1 eigenspace) = dim(-1 eigenspace) = 98280;  +1 eigenspace = R[Lambda_4/{+-1}]
+form 1: sum=196560; can a sub-multiset of constituents have dim 98280? False
+   closest achievable dims to 98280: [96304, 100256, 96280]
+   multiplicity of trivial rep: 0 (any permutation module has >= 1)
+form 2: sum=196560; can a sub-multiset of constituents have dim 98280? False
+   closest achievable dims to 98280: [96304, 100256, 96303]
+   multiplicity of trivial rep: 1 (any permutation module has >= 1)
+their footnote 98280 = 80730+17250+299+1 : True -- these constituents are absent from forms 1/2
+dim Harm_k(R^24), k=0..5: [1, 24, 299, 2576, 17250, 95680] sum 115830 remainder 80730
+pair of minimal vectors with <u,w>=1 (norm 4): 2<u,w>/<w,w> = 0.5 (not an integer)
+max #roots of a rank-24 reduced root system: B24/C24 have 2*24^2 = 1152
+form 1 sub-multiset sums available for Harm_k dims: {24: True, 299: False, 2576: False, 17250: False, 95680: True}
+form 2 sub-multiset sums available for Harm_k dims: {24: True, 299: True, 2576: False, 17250: False, 95680: True}
